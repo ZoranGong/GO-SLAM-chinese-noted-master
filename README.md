@@ -1,3 +1,24 @@
+# GO-SLAM-chinese-noted-master
+GO-SLAM code with chinese notes 中文注释版GO-SLAM源码
+
+### 对GO-SLAM中的run.py、slam.py、frontend.py、backend.py、InstantNeus.py、mapping.py、motion_filter.py进行了注释，适合GO-SLAM的入门学习，里面还有我整理的Xmind思维导图供各位参考
+
+PS：
+本人为研一新生，此注释为我在源代码基础上做的学习笔记，里面包含我对NICE-SLAM的理解，研一新生能力有限，里面还有很多问题搞不清楚，还望多多包涵！
+
+
+在此尊重一下版权：
+
+感谢原作者Youmin Zhang等人：
+```
+@inproceedings{zhang2023goslam,
+    author    = {Zhang, Youmin and Tosi, Fabio and Mattoccia, Stefano and Poggi, Matteo},
+    title     = {GO-SLAM: Global Optimization for Consistent 3D Instant Reconstruction},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+}
+```
 
 
 <h1 align="center"> GO-SLAM <br>Global Optimization for Consistent 3D Instant Reconstruction <br> (ICCV 2023) </h1> 
