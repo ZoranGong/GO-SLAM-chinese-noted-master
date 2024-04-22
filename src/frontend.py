@@ -103,7 +103,7 @@ class Frontend:
         """ initialize the SLAM system """
 
         self.t0 = 0
-        self.t1 = self.video.counter.value # 滑动窗口右边界
+        self.t1 = self.video.counter.value # 滑动窗口右边界, 当前帧-1
 
         # build edges between nearby(radius <= 3) frames within local windown [t0, t1]
         self.graph.add_neighborhood_factors(self.t0, self.t1, r=3) # 在局部窗口[t0, t1]内建立边，半径为3，即相邻帧之间建立边
